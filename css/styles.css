@@ -67,3 +67,12 @@ h1 {
   background: #f8f8f8;
   margin-bottom: 3.6rem;
 }
+
+.schedule {
+  color: #595959;
+  font-family: 'Gothic A1';
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2px;
+  letter-spacing: -1.6px;
+}
