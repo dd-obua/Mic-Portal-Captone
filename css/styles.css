@@ -165,3 +165,24 @@ h1 {
 .join:hover {
   color: #fff;
 }
+
+.instructors {
+}
+
+.instructors h2 {
+  color: #000;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  letter-spacing: -1px;
+  padding-top: 3.6rem;
+  text-align: center;
+}
+
+.instructors hr {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  background: #a04038;
+  height: 3px;
+  margin-bottom: 3.2rem;
+}
