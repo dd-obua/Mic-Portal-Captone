@@ -22,4 +22,5 @@ body {
   position: absolute;
   top: 1.7rem;
   left: 2.3rem;
+  cursor: pointer;
 }
