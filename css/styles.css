@@ -29,3 +29,8 @@ body {
   display: block;
   margin: 0.4rem auto;
 }
+
+.hero {
+  width: 92%;
+  margin: 10.9rem auto 7.1rem;
+}
