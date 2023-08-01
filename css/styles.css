@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
@@ -14,4 +15,11 @@ body {
 
 .hidden {
   display: none;
+}
+
+.mobile-nav img:first-child {
+  width: 3.1rem;
+  position: absolute;
+  top: 1.7rem;
+  left: 2.3rem;
 }
