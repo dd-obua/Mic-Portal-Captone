@@ -38,3 +38,19 @@ body {
   width: 92%;
   margin: 10.9rem auto 7.1rem;
 }
+
+.hero q,
+h1 {
+  color: #fc1704;
+  /* color: #740402; */
+}
+
+.hero q {
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  width: 73%;
+}
