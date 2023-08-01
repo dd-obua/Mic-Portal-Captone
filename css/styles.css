@@ -17,17 +17,21 @@ body {
   display: none;
 }
 
-.mobile-nav img:first-child {
+.mobile-menu {
+  display: inline-block;
   width: 3.1rem;
-  position: absolute;
-  top: 1.7rem;
-  left: 2.3rem;
+  margin-top: 1.7rem;
+  margin-left: 6%;
   cursor: pointer;
 }
 
-.mobile-nav img:nth-child(2) {
-  display: block;
-  margin: 0.4rem auto;
+.project-logo {
+  display: inline-block;
+  width: 13rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0.8rem;
 }
 
 .hero {
