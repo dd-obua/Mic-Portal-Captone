@@ -188,3 +188,8 @@ h1 {
   margin-bottom: 3.2rem;
 }
 
+.instructors article {
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
+}
