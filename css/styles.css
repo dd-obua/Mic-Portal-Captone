@@ -167,7 +167,7 @@ h1 {
 }
 
 .instructors {
-  padding: 3%;
+  padding: 0 3%;
 }
 
 .instructors h2 {
@@ -192,4 +192,32 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 1.4rem;
+}
+
+.instructors article img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.instructors article h3 {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.instructors article .first {
+  color: #f78c89;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 1.5rem;
+}
+
+.instructors article .second {
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  letter-spacing: -0.5px;
 }
