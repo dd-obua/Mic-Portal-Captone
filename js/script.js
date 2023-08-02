@@ -76,3 +76,22 @@ const experts = [
     workPlace: 'Ethereum Foundation - Research and Development Division',
   },
 ];
+
+const expertList = document.querySelector('.expert-list');
+
+experts.forEach((expert, index) => {
+  const expertHtml = `
+    <li>
+      <article>
+        <img src="${expert.picture.src}" alt="${expert.picture.alt}">
+        <div>
+          <h3>${expert.fullName}</h3>
+          <p class="expertise">${expert.expertise}</p>
+          <p class="work-place">${expert.workPlace}</p>
+        </div>
+      </article>
+    </li>
+  `;
+
+  expertList.insertAdjacentHTML('beforeend', expertHtml);
+});
