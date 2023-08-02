@@ -29,14 +29,13 @@ li {
   background: #fff;
   font-size: 2.8rem;
   font-weight: 500;
-
   display: flex;
   flex-direction: column;
   padding: 3.6rem 0 0 3.6rem;
   z-index: 2;
 }
 
-.mobile-menu li:not(last-child) {
+.mobile-menu li:not(:last-child) {
   margin-bottom: 2.4rem;
 }
 
@@ -78,6 +77,7 @@ li {
 .hero q,
 h1 {
   color: #fc1704;
+
   /* color: #740402; */
   margin-bottom: 6.4rem;
 }
@@ -105,7 +105,6 @@ h1 {
 
 .schedule {
   color: #595959;
-  font-family: 'Gothic A1';
   font-size: 2rem;
   font-weight: 900;
   line-height: 2px;
@@ -114,7 +113,6 @@ h1 {
 
 .venue {
   color: #868686;
-  font-family: Gothic A1;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.26px;
@@ -150,6 +148,19 @@ h1 {
   margin: 0 1.2rem;
 }
 
+footer img {
+  width: 6.4rem;
+}
+
+.section-1 img {
+  height: 8rem;
+  padding-bottom: 2.4rem;
+}
+
+.partners img {
+  height: 2.8rem;
+}
+
 .programs article img {
   width: 4.8rem;
   margin-left: 1.2rem;
@@ -163,6 +174,21 @@ h1 {
   font-weight: 700;
   line-height: 2.5rem;
   letter-spacing: -0.143px;
+}
+
+.section-1 p {
+  width: 94%;
+  margin: 0 auto;
+  color: #838383;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  letter-spacing: -0.48px;
+  margin-bottom: 3.2rem;
+}
+
+.section-1 p span {
+  display: none;
 }
 
 .programs article p {
@@ -366,26 +392,6 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.section-1 p {
-  width: 94%;
-  margin: 0 auto;
-  color: #838383;
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 2.1rem;
-  letter-spacing: -0.48px;
-  margin-bottom: 3.2rem;
-}
-
-.section-1 p span {
-  display: none;
-}
-
-.section-1 img {
-  height: 8rem;
-  padding-bottom: 2.4rem;
-}
-
 .seperator {
   height: 5px;
   color: #ececf0;
@@ -411,7 +417,6 @@ h1 {
 
 .section-2 .evidence {
   color: #838383;
-  font-family: Lato;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 2.1rem;
@@ -503,10 +508,6 @@ h1 {
   margin-top: 1.2rem;
 }
 
-.partners img {
-  height: 2.8rem;
-}
-
 .about-h1 {
   width: 100%;
 }
@@ -517,10 +518,6 @@ footer {
   align-items: center;
   gap: 3rem;
   margin: 2.8rem 7%;
-}
-
-footer img {
-  width: 6.4rem;
 }
 
 .hidden {
