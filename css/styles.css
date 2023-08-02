@@ -345,6 +345,12 @@ h1 {
   padding-bottom: 2.4rem;
 }
 
+.seperator {
+  height: 5px;
+  color: #ececf0;
+  margin-bottom: 6.4rem;
+}
+
 .partners {
   background: #414246;
 }
