@@ -248,6 +248,14 @@ h1 {
   gap: 1rem;
 }
 
+.instructors .show-less {
+  display: none;
+}
+
+.instructors .up-arrow {
+  transform: rotate(180deg);
+}
+
 .about-hero,
 .about-main {
   text-align: center;
