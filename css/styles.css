@@ -367,6 +367,15 @@ h1 {
   letter-spacing: -0.4px;
 }
 
+.section-2 hr {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  background: #a04038;
+  height: 3px;
+  margin-bottom: 1.2rem;
+}
+
 .partners {
   background: #414246;
 }
