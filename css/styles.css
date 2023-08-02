@@ -166,11 +166,11 @@ h1 {
   color: #fff;
 }
 
-.instructors {
+.experts {
   padding: 0 3%;
 }
 
-.instructors h2 {
+.experts h2 {
   color: #000;
   font-size: 2rem;
   line-height: 2.8rem;
@@ -179,7 +179,7 @@ h1 {
   text-align: center;
 }
 
-.instructors hr {
+.experts hr {
   width: 10%;
   display: block;
   margin: 0 auto;
@@ -188,25 +188,27 @@ h1 {
   margin-bottom: 3.2rem;
 }
 
-.instructors article {
+.experts article {
   display: flex;
   justify-content: center;
-  gap: 1.4rem;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 1.2rem;
 }
 
-.instructors article img {
-  width: 9rem;
-  height: 9rem;
+.experts article img {
+  width: 8rem;
 }
 
-.instructors article h3 {
+.experts article h3 {
   color: #000;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.3px;
+  padding-top: 1.2rem;
 }
 
-.instructors article .first {
+.experts article .first {
   color: #f78c89;
   font-size: 10px;
   font-weight: 700;
@@ -214,7 +216,7 @@ h1 {
   line-height: 1.5rem;
 }
 
-.instructors article .second {
+.experts article .second {
   color: #000;
   font-size: 0.9rem;
   font-weight: 700;
@@ -222,7 +224,7 @@ h1 {
   letter-spacing: -0.5px;
 }
 
-.instructors button {
+.experts button {
   width: 95%;
   margin: 0 auto;
   border: none;
@@ -233,7 +235,7 @@ h1 {
   margin-bottom: 3.2rem;
 }
 
-.instructors button span {
+.experts button span {
   display: block;
   margin: 0 auto;
   color: #000;
@@ -248,11 +250,11 @@ h1 {
   gap: 1rem;
 }
 
-.instructors .show-less {
+.experts .show-less {
   display: none;
 }
 
-.instructors .up-arrow {
+.experts .up-arrow {
   transform: rotate(180deg);
 }
 
