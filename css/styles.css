@@ -482,11 +482,11 @@ h1 {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 3rem;
   margin: 2.8rem 7%;
 }
 
 footer img {
-  width: 13.5rem;
-  height: 3.2rem;
+  width: 6.4rem;
 }
