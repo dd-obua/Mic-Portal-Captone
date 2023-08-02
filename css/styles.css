@@ -359,6 +359,14 @@ h1 {
   margin-bottom: 6.4rem;
 }
 
+.section-2 h2 {
+  color: #2c2c2c;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: -0.4px;
+}
+
 .partners {
   background: #414246;
 }
