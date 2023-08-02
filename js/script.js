@@ -79,43 +79,47 @@ const experts = [
 
 const expertList = document.querySelector('.expert-list');
 
-let num = 2;
+let total = 2;
 
 const generateExperts = num => {
-  for (let i = 0; i < num; i++) {
+  experts.forEach((expert, index) => {
+    if (index >= num) return;
+
     const expertHtml = `
-    <li>
-      <article>
-        <img src="${experts[i].picture.src}" alt="${experts[i].picture.alt}">
-        <div>
-          <h3>${experts[i].fullName}</h3>
-          <p class="expertsise">${experts[i].expertise}</p>
-          <p class="work-place">${experts[i].workPlace}</p>
-        </div>
-      </article>
-    </li>
-  `;
+      <li>
+        <article>
+          <img src="${expert.picture.src}" alt="${expert.picture.alt}">
+          <div>
+            <h3>${expert.fullName}</h3>
+            <p class="expertsise">${expert.expertise}</p>
+            <p class="work-place">${expert.workPlace}</p>
+          </div>
+        </article>
+      </li>
+    `;
     expertList.insertAdjacentHTML('beforeend', expertHtml);
-  }
+  });
 };
 
-generateExperts(2);
+generateExperts(total);
 
 const showMore = document.querySelector('.show-more');
 const showLess = document.querySelector('.show-less');
 
-num = 6;
+total = 6;
 
 showMore.addEventListener('click', () => {
   expertList.replaceChildren();
-  generateExperts(num);
+  generateExperts(total);
   showMore.style.display = 'none';
   showLess.style.display = 'block';
+  total = 2;
 });
 
 showLess.addEventListener('click', () => {
   expertList.replaceChildren();
-  generateExperts(2);
+  generateExperts(total);
   showMore.style.display = 'block';
   showLess.style.display = 'none';
+  total = 6;
 });
