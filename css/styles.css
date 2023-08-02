@@ -376,7 +376,7 @@ h1 {
   margin-bottom: 1.2rem;
 }
 
-.section-2 p {
+.section-2 .evidence {
   color: #838383;
   font-family: Lato;
   font-size: 1.2rem;
@@ -386,6 +386,38 @@ h1 {
   width: 85%;
   margin: 0 auto;
   margin-bottom: 3.6rem;
+}
+
+.about-cards {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.about {
+  /* height: 18.4rem; */
+  color: #fff;
+  background: #5f2222;
+  padding: 4.8rem 0;
+}
+
+.about-1 {
+  background-image: (url(../images/about/about-1.png));
+}
+
+.about-2 {
+  background-image: (url(../images/about/about-2.png));
+}
+
+.section-2 .yr {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.section-2 .venue {
+  color: #fff;
 }
 
 .partners {
