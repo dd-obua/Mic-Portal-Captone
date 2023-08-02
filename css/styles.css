@@ -248,9 +248,24 @@ h1 {
   gap: 1rem;
 }
 
-.hero,
+.about-hero,
 .about-main {
   text-align: center;
+}
+
+.about-hero {
+  margin-top: 2.4rem;
+}
+
+.about-hero h1 {
+  font-size: 3.2rem;
+  width: 100%;
+}
+
+.about-h1,
+.about-hero q {
+  color: #f9432b;
+  font-size: 1.8rem;
 }
 
 .partners {
@@ -304,6 +319,10 @@ h1 {
 
 .partners img {
   height: 2.8rem;
+}
+
+.about-h1 {
+  width: 100%;
 }
 
 footer {
