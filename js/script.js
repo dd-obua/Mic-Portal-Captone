@@ -81,7 +81,7 @@ const expertList = document.querySelector('.expert-list');
 
 let total = 2;
 
-const generateExperts = num => {
+const generateExperts = (num) => {
   experts.forEach((expert, index) => {
     if (index >= num) return;
 
