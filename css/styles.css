@@ -405,11 +405,11 @@ h1 {
 }
 
 .about-1 {
-  background-image: (url(../images/about/about-1.png));
+  /* background-image: (url(../images/about/about-1.png)); */
 }
 
 .about-2 {
-  background-image: (url(../images/about/about-2.png));
+  /* background-image: (url(../images/about/about-2.png)); */
 }
 
 .section-2 .yr {
