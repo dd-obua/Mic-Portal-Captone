@@ -79,19 +79,43 @@ const experts = [
 
 const expertList = document.querySelector('.expert-list');
 
-experts.forEach((expert, index) => {
-  const expertHtml = `
+let num = 2;
+
+const generateExperts = num => {
+  for (let i = 0; i < num; i++) {
+    const expertHtml = `
     <li>
       <article>
-        <img src="${expert.picture.src}" alt="${expert.picture.alt}">
+        <img src="${experts[i].picture.src}" alt="${experts[i].picture.alt}">
         <div>
-          <h3>${expert.fullName}</h3>
-          <p class="expertise">${expert.expertise}</p>
-          <p class="work-place">${expert.workPlace}</p>
+          <h3>${experts[i].fullName}</h3>
+          <p class="expertsise">${experts[i].expertise}</p>
+          <p class="work-place">${experts[i].workPlace}</p>
         </div>
       </article>
     </li>
   `;
+    expertList.insertAdjacentHTML('beforeend', expertHtml);
+  }
+};
 
-  expertList.insertAdjacentHTML('beforeend', expertHtml);
+generateExperts(2);
+
+const showMore = document.querySelector('.show-more');
+const showLess = document.querySelector('.show-less');
+
+num = 6;
+
+showMore.addEventListener('click', () => {
+  expertList.replaceChildren();
+  generateExperts(num);
+  showMore.style.display = 'none';
+  showLess.style.display = 'block';
+});
+
+showLess.addEventListener('click', () => {
+  expertList.replaceChildren();
+  generateExperts(2);
+  showMore.style.display = 'block';
+  showLess.style.display = 'none';
 });
