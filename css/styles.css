@@ -340,6 +340,11 @@ h1 {
   display: none;
 }
 
+.section-1 img {
+  height: 8rem;
+  padding-bottom: 2.4rem;
+}
+
 .partners {
   background: #414246;
 }
