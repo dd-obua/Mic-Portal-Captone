@@ -311,6 +311,11 @@ h1 {
   font-size: 1.8rem;
 }
 
+.about-hero q {
+  display: block;
+  padding-top: 1.2rem;
+}
+
 .about-hero .p-1 {
   width: 95%;
   margin: 0 auto;
