@@ -65,11 +65,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Welome message including dates and venue**
+- **Welcome message including dates and venue**
 - **Programs that will transpire in the Tech symposium**
 - **Information about experts that will facilitate the symposium**
 - **List of partners**
-- **A showcase of past symposia**
+- **A showcase of past symposiums**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
