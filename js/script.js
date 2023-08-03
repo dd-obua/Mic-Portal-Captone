@@ -102,8 +102,8 @@ const generateExperts = num => {
 const showMore = document.querySelector('.show-more');
 const showLess = document.querySelector('.show-less');
 
-let min = 2,
-  max = 6;
+const min = 2;
+const max = 6;
 
 showMore.addEventListener('click', () => {
   expertList.replaceChildren();
