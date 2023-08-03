@@ -278,4 +278,41 @@
   .partners-about {
     display: none;
   }
+
+  .home-footer,
+  .about-footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.4rem;
+    margin: 2.8rem 7%;
+  }
+
+  .about-additional {
+    display: inline-block;
+  }
+
+  footer img {
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    left: 20%;
+  }
+
+  footer div {
+    padding-left: 28%;
+    padding-top: 1.2rem;
+  }
+
+  footer p {
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.14px;
+    padding-right: 22%;
+  }
 }
