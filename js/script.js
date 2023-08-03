@@ -22,7 +22,7 @@ const experts = [
     fullName: 'Dr. Jennifer Adam',
     expertise:
       'Artificial Intelligence and Robotics. Her research focuses on developing AI-driven robots for healthcare applications',
-    workPlace: 'Massachusetts Institute of Technology (MIT) - Robotics Lab',
+    affiliation: 'Massachusetts Institute of Technology (MIT) - Robotics Lab',
   },
   {
     picture: {
@@ -32,7 +32,7 @@ const experts = [
     fullName: 'Prof. Mark Johnson',
     expertise:
       'Cybersecurity and Ethical Hacking. He is an authority on cybersecurity strategies and has conducted numerous penetration testing projects',
-    workPlace: '',
+    affiliation: 'Stanford University - Center for Cybersecurity',
   },
   {
     picture: {
@@ -42,7 +42,7 @@ const experts = [
     fullName: 'Dr. Emily Carter',
     expertise:
       'Quantum Computing and Computational Chemistry. Her pioneering work bridges the gap between quantum mechanics and chemistry',
-    workPlace: 'Princeton University - Department of Chemistry',
+    affiliation: 'Princeton University - Department of Chemistry',
   },
   {
     picture: {
@@ -52,7 +52,7 @@ const experts = [
     fullName: 'John Lee',
     expertise:
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    workPlace: 'Apple Inc. - Augmented Reality Research Team',
+    affiliation: 'Apple Inc. - Augmented Reality Research Team',
   },
   {
     picture: {
@@ -62,7 +62,7 @@ const experts = [
     fullName: 'Dr. Alex Martinez',
     expertise:
       'Internet of Things (IoT) and Smart Cities. His research focuses on implementing IoT technologies to enhance urban sustainability',
-    workPlace:
+    affiliation:
       'University of California, Berkeley - Institute for Smart Cities',
   },
   {
@@ -73,13 +73,11 @@ const experts = [
     fullName: 'Sarah Williams',
     expertise:
       'Blockchain and Cryptocurrencies. She is a renowned blockchain expert, working on secure  and calable blockchain solutions',
-    workPlace: 'Ethereum Foundation - Research and Development Division',
+    affiliation: 'Ethereum Foundation - Research and Development Division',
   },
 ];
 
 const expertList = document.querySelector('.expert-list');
-
-let total = 2;
 
 const generateExperts = num => {
   experts.forEach((expert, index) => {
@@ -91,8 +89,8 @@ const generateExperts = num => {
           <img src="${expert.picture.src}" alt="${expert.picture.alt}">
           <div>
             <h3>${expert.fullName}</h3>
-            <p class="expertsise">${expert.expertise}</p>
-            <p class="work-place">${expert.workPlace}</p>
+            <p class="expertise">${expert.expertise}</p>
+            <p class="affiliation">${expert.affiliation}</p>
           </div>
         </article>
       </li>
@@ -101,25 +99,31 @@ const generateExperts = num => {
   });
 };
 
-generateExperts(total);
-
 const showMore = document.querySelector('.show-more');
 const showLess = document.querySelector('.show-less');
 
-total = 6;
+let min = 2,
+  max = 6;
 
 showMore.addEventListener('click', () => {
   expertList.replaceChildren();
-  generateExperts(total);
+  generateExperts(max);
   showMore.style.display = 'none';
   showLess.style.display = 'block';
-  total = 2;
 });
 
 showLess.addEventListener('click', () => {
   expertList.replaceChildren();
-  generateExperts(total);
+  generateExperts(min);
   showMore.style.display = 'block';
   showLess.style.display = 'none';
-  total = 6;
+});
+
+window.addEventListener('load', () => {
+  if (window.innerWidth < 768) {
+    generateExperts(min);
+  } else {
+    generateExperts(max);
+    showMore.style.display = 'none';
+  }
 });

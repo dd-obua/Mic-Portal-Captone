@@ -253,7 +253,7 @@ footer img {
 .experts article {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.6rem;
   margin-bottom: 1.2rem;
 }
@@ -278,7 +278,7 @@ footer img {
   line-height: 1.5rem;
 }
 
-.experts article .work-place {
+.experts article .affiliation {
   color: #000;
   font-size: 0.9rem;
   font-weight: 700;
@@ -317,6 +317,10 @@ footer img {
 
 .experts .up-arrow {
   transform: rotate(180deg);
+}
+
+.partners {
+  display: none;
 }
 
 .about-hero,
