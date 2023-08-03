@@ -3,11 +3,11 @@ const menuLauncher = document.querySelector('.mobile-menu-icon');
 const closeMenuIcon = document.querySelector('.close-menu-icon');
 
 const launchMenu = () => {
-  menu.classList.remove('hidden');
+  menu.style.display = 'block';
 };
 
 const closeMenu = () => {
-  menu.classList.add('hidden');
+  menu.style.display = 'none';
 };
 
 menuLauncher.addEventListener('click', launchMenu);
@@ -81,7 +81,7 @@ const expertList = document.querySelector('.expert-list');
 
 let total = 2;
 
-const generateExperts = (num) => {
+const generateExperts = num => {
   experts.forEach((expert, index) => {
     if (index >= num) return;
 
