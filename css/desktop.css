@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .project-logo {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    background: #3e3e3e;
+    padding: 1.2rem 0;
+    padding-right: 13%;
+  }
+
+  .socials img {
+    height: 1.8rem;
+  }
+
+  .socials a {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .desktop-nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16%;
+  }
+
+  .desktop-nav div img {
+    display: inline;
+    height: 5.1rem;
+  }
+
+  .desktop-nav div ul {
+    display: flex;
+    gap: 6.4rem;
+    margin-bottom: -0.8rem;
+  }
+
+  .desktop-nav div a {
+    color: #868686;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+
+  .desktop-nav div li:first-child a {
+    color: #f07f7e;
+  }
+
+  .desktop-nav div li:last-child a {
+    color: #ec4327;
+    border: 5px solid #ec4327;
+    padding: 1.2rem 1rem;
+  }
+}
