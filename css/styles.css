@@ -76,7 +76,7 @@ li {
 .hero {
   margin: 2rem auto 0;
   padding: 8rem 4% 6.4rem;
-  background: url(<path-to-image>), #f8f8f8 50% / cover no-repeat;
+  background: url(<path-to-image>), #f7f7f8 50% / cover no-repeat;
 }
 
 .hero q,

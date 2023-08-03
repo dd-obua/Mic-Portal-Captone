@@ -29,6 +29,11 @@
     font-size: 1.2rem;
   }
 
+  .desktop-nav {
+    background: #fff;
+    padding-bottom: 0.8rem;
+  }
+
   .desktop-nav div {
     display: flex;
     justify-content: center;
@@ -44,7 +49,6 @@
   .desktop-nav div ul {
     display: flex;
     gap: 6.4rem;
-    margin-bottom: -0.8rem;
   }
 
   .desktop-nav div a {
@@ -61,5 +65,50 @@
     color: #ec4327;
     border: 5px solid #ec4327;
     padding: 1.2rem 1rem;
+  }
+
+  body {
+    background: #f7f7f8;
+  }
+
+  .hero {
+    width: 51%;
+    margin-left: 21%;
+    padding-top: 3.2rem;
+    padding-bottom: 12rem;
+  }
+
+  .hero q {
+    font-size: 2.4rem;
+  }
+
+  .hero h1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+    margin-bottom: 4.8rem;
+  }
+
+  .hero .intro {
+    color: #515151;
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+    letter-spacing: -0.3px;
+  }
+
+  .hero .schedule {
+    font-size: 4.2rem;
+    font-weight: 900;
+    line-height: 0px;
+    letter-spacing: -0.34rem;
+    padding-bottom: 3.2rem;
+    margin-top: 6.4rem;
+  }
+
+  .hero .venue {
+    color: #868686;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: -0.6px;
   }
 }
