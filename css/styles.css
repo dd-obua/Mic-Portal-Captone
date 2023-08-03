@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
+  background: linear-gradient(to bottom, #f7f7f8, #fff);
 }
 
 a {
