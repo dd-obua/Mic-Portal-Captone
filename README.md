@@ -168,7 +168,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like this project, you can offer support in terms of feedback, suggestions and finances.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -257,11 +256,11 @@ _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/
 
 ### Key Features <a name="key-features"></a>
 
-- **Welome message including dates and venue**
+- **Welcome message including dates and venue**
 - **Programs that will transpire in the Tech symposium**
 - **Information about experts that will facilitate the symposium**
 - **List of partners**
-- **A showcase of past symposia**
+- **A showcase of past symposiums**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -359,7 +358,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project, you can offer support in terms of feedback, suggestions and finances.
 
