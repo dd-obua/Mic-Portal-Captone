@@ -206,6 +206,10 @@ footer img {
   padding-right: 1rem;
 }
 
+.see-all {
+  display: none;
+}
+
 .join {
   display: block;
   text-align: center;
