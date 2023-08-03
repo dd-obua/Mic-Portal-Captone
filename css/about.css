@@ -23,6 +23,18 @@
     margin-bottom: 7rem;
   }
 
+  .section-1 p span {
+    display: inline-block;
+    width: 53%;
+    margin: 0 auto;
+    color: #838383;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    letter-spacing: -0.48px;
+    padding-bottom: 3.6rem;
+  }
+
   .about-hero .p-1 {
     background: #fff;
     width: 55%;
@@ -31,6 +43,15 @@
     line-height: 2.5rem;
     margin-bottom: 3.6rem;
     border: 3.6rem solid #fff;
+  }
+
+  .section-1 h2 {
+    color: #2c2c2c;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    letter-spacing: -0.9px;
+    padding: 6.4rem 0 2rem;
   }
 
   .about-hero .p-1 span {
@@ -61,29 +82,8 @@
     background: #fff;
   }
 
-  .section-1 h2 {
-    color: #2c2c2c;
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 2.8rem;
-    letter-spacing: -0.9px;
-    padding: 6.4rem 0 2rem;
-  }
-
   .section-1 hr {
     width: 2%;
-  }
-
-  .section-1 p span {
-    display: inline-block;
-    width: 53%;
-    margin: 0 auto;
-    color: #838383;
-    font-size: 1.6rem;
-    font-weight: 700;
-    line-height: 2.1rem;
-    letter-spacing: -0.48px;
-    padding-bottom: 3.6rem;
   }
 
   .section-1 .follows {
