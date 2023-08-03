@@ -76,14 +76,12 @@ li {
 .hero {
   margin: 2rem auto 0;
   padding: 8rem 4% 6.4rem;
-  background: url(<path-to-image>), #f7f7f8 50% / cover no-repeat;
+  background: linear-gradient(#ececed, #f5f5f6);
 }
 
 .hero q,
 h1 {
   color: #fc1704;
-
-  /* color: #740402; */
   margin-bottom: 6.4rem;
 }
 
@@ -104,7 +102,6 @@ h1 {
   line-height: 1.7rem;
   letter-spacing: -0.12px;
   border: 4px solid #fff;
-  background: #f8f8f8;
   margin-bottom: 3.6rem;
 }
 
@@ -128,20 +125,29 @@ h1 {
   padding-bottom: 3.6rem;
 }
 
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.24rem;
+  padding-bottom: 3.6rem;
+}
+
 .main-program h2 {
   color: #fff;
   font-size: 2rem;
   line-height: 2.8rem;
   letter-spacing: -0.8px;
   text-align: center;
-  padding: 3.2rem 0 5.6rem;
+  padding: 3.2rem 0 1.6rem;
 }
 
-.programs {
-  display: flex;
-  flex-direction: column;
-  gap: 0.24rem;
-  padding-bottom: 3.6rem;
+.main-program hr {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  background: #a04038;
+  height: 3px;
+  margin-bottom: 4rem;
 }
 
 .programs article {
@@ -326,7 +332,7 @@ footer img {
 
 .about-hero {
   margin-top: 2.4rem;
-  background: #f5f5f5;
+  background: linear-gradient(#ececed, #f5f5f6);
 }
 
 .about-hero h1 {
@@ -345,17 +351,19 @@ footer img {
   padding-top: 1.2rem;
 }
 
+.about-hero hr {
+  display: none;
+}
+
 .about-hero .p-1 {
-  width: 95%;
-  margin: 0 auto;
-  padding: 2rem 1.2rem;
+  margin: 0 auto 2.4rem;
   color: #000;
   font-size: 1.4rem;
   line-height: 2.5rem;
   letter-spacing: -0.84px;
-  background: #f8f8f8;
-  border: 4px solid #fff;
+  border: 14px solid #fff;
   margin-bottom: 2.4rem;
+  background: #fff;
 }
 
 .about-hero .p-1 span {
@@ -451,14 +459,6 @@ footer img {
   padding: 4.8rem 0;
 }
 
-.about-1 {
-  /* background-image: (url(../images/about/about-1.png)); */
-}
-
-.about-2 {
-  /* background-image: (url(../images/about/about-2.png)); */
-}
-
 .section-2 .yr {
   font-size: 2.4rem;
   font-weight: 700;
@@ -466,6 +466,7 @@ footer img {
 
 .section-2 .venue {
   color: #fff;
+  font-size: 1.6rem;
 }
 
 .partners {

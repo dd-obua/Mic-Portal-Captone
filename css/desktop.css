@@ -68,7 +68,7 @@
   }
 
   body {
-    background: #f7f7f8;
+    background: linear-gradient(to bottom, #f7f7f8, #fff);
   }
 
   h1 {
@@ -87,7 +87,6 @@
   }
 
   .hero h1 {
-    /* font-size: 4.8rem; */
     font-weight: 900;
     margin-bottom: 4.8rem;
   }
@@ -120,7 +119,11 @@
     font-size: 3.2rem;
     line-height: 2.8rem;
     letter-spacing: -0.3px;
-    padding: 7.5rem 0;
+    padding: 7.5rem 0 1.2rem;
+  }
+
+  .main-program hr {
+    margin-bottom: 7rem;
   }
 
   .programs {
@@ -290,7 +293,6 @@
     justify-content: center;
     align-items: center;
     gap: 6.4rem;
-    margin: 2.8rem 7%;
   }
 
   .about-additional {
@@ -300,23 +302,19 @@
   footer img {
     width: 12rem;
     height: 12rem;
-    position: absolute;
-    left: 20%;
   }
 
   footer div {
-    padding-left: 28%;
-    padding-top: 1.2rem;
+    width: 50%;
+    padding: 6.4rem 0;
   }
 
   footer p {
     color: #000;
-    font-family: Lato;
-    font-size: 14px;
-    font-style: normal;
+    font-size: 1.4rem;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 2.4rem;
     letter-spacing: -0.14px;
-    padding-right: 22%;
+    padding-top: 1.2rem;
   }
 }
