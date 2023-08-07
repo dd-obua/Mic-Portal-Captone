@@ -78,6 +78,12 @@ li {
   padding: 8rem 4% 6.4rem;
 }
 
+h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  width: 73%;
+}
+
 .hero q,
 h1 {
   color: #fc1704;
@@ -86,12 +92,6 @@ h1 {
 
 .hero q {
   font-size: 1.8rem;
-}
-
-h1 {
-  font-size: 2.4rem;
-  font-weight: 900;
-  width: 73%;
 }
 
 .intro {
