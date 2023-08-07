@@ -86,7 +86,9 @@ const generateExperts = num => {
     const expertHtml = `
       <li>
         <article>
-          <img src="${expert.picture.src}" alt="${expert.picture.alt}">
+          <div class="expert-img">
+            <img src="${expert.picture.src}" alt="${expert.picture.alt}">
+          </div>
           <div>
             <h3>${expert.fullName}</h3>
             <p class="expertise">${expert.expertise}</p>
