@@ -76,6 +76,10 @@ li {
 .hero {
   margin: 2rem auto 0;
   padding: 8rem 4% 6.4rem;
+  background: url(../images/background.png);
+  background-position: 51% 55%;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 h1 {
@@ -549,11 +553,4 @@ footer p {
 
 .hidden {
   display: none;
-}
-
-.hero {
-  background: url(../images/background.png);
-  background-position: 51% 55%;
-  background-repeat: no-repeat;
-  z-index: -1;
 }
