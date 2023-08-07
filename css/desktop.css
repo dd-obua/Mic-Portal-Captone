@@ -236,6 +236,10 @@
     background: #fff;
   }
 
+  .experts hr {
+    width: 4.2%;
+  }
+
   .experts h2 {
     font-size: 3rem;
     line-height: 2.8rem;
