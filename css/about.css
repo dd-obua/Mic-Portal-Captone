@@ -148,4 +148,8 @@
     width: 100%;
     background: #2e2e2e;
   }
+
+  .about-footer p {
+    color: #fff;
+  }
 }
