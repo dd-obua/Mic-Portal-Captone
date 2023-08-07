@@ -177,6 +177,11 @@
     gap: 1.4rem;
     margin: 0;
     text-align: center;
+    transition: all 0.5s;
+  }
+
+  .programs article:hover {
+    border: 2px solid #fff;
   }
 
   .programs article img {
