@@ -36,6 +36,10 @@
     font-size: 1.2rem;
   }
 
+  .hero {
+    background: none;
+  }
+
   main {
     background: #fdfdfd url(../images/background.png) no-repeat;
     background-size: auto;
