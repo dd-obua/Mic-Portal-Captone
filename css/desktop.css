@@ -36,14 +36,16 @@
     font-size: 1.2rem;
   }
 
-  .hero {
-    background: none;
-  }
-
   main {
     background: #fdfdfd url(../images/background.png) no-repeat;
     background-size: auto;
     background-position: center top;
+    margin-top: -2rem;
+    padding-top: 13rem;
+  }
+
+  .hero {
+    background: none;
   }
 
   .index-partners ul {
@@ -66,6 +68,7 @@
     align-items: center;
     gap: 11%;
     padding-right: 13%;
+    padding-bottom: 1.6rem;
   }
 
   .desktop-nav div img {
@@ -102,10 +105,6 @@
     padding: 1.2rem 1rem;
   }
 
-  body {
-    background: #ededee;
-  }
-
   h1 {
     font-size: 4.8rem;
   }
@@ -123,7 +122,7 @@
 
   .hero h1 {
     font-weight: 900;
-    margin-bottom: 4.8rem;
+    margin-bottom: 6.4rem;
   }
 
   .hero .intro {
@@ -131,6 +130,7 @@
     font-size: 2.5rem;
     line-height: 3.6rem;
     letter-spacing: -0.3px;
+    margin-bottom: 12rem;
   }
 
   .hero .schedule {
@@ -236,16 +236,21 @@
     background: #fff;
   }
 
-  .experts hr {
-    width: 4.2%;
-  }
-
   .experts h2 {
     font-size: 3rem;
     line-height: 2.8rem;
     letter-spacing: -0.3px;
     padding-bottom: 1.2rem;
-    padding-top: 0;
+  }
+
+  .experts hr {
+    width: 4.5%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    background: #a04038;
+    height: 3px;
+    margin-bottom: 3.2rem;
   }
 
   .experts article {
@@ -272,6 +277,12 @@
     letter-spacing: -0.8px;
   }
 
+  .experts article .expertise::after {
+    content: '___';
+    display: block;
+    color: #d9d9d9;
+  }
+
   .experts article .affiliation {
     font-size: 1.4rem;
     font-weight: 700;
@@ -288,7 +299,15 @@
     font-size: 3rem;
     line-height: 2.8rem;
     letter-spacing: -0.3px;
-    margin: 3.6rem 0 6.4rem;
+    padding: 3.6rem 0 0;
+  }
+
+  .index-partners h2::after {
+    content: '____';
+    display: block;
+    color: #a04038;
+    padding-top: -2.4rem;
+    margin-bottom: 6.4rem;
   }
 
   .partner {
