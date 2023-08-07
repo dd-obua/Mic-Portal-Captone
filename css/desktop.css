@@ -36,6 +36,12 @@
     font-size: 1.2rem;
   }
 
+  main {
+    background: #fdfdfd url(../images/background.png) no-repeat;
+    background-size: auto;
+    background-position: center top;
+  }
+
   .index-partners ul {
     display: flex;
     align-items: center;
