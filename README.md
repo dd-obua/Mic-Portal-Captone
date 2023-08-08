@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <h3><b>Mic-Portal-Captone</b></h3>
+  <h3><b>TechSplendor Symposium</b></h3>
 
 </div>
 
@@ -30,7 +30,7 @@
 
 # 📖 [Mic-Portal-Captone] <a name="about-project"></a>
 
-**[Mic-Portal-Captone]** is a the first capstone project at Microverse. Here I have built a website for a technology symposium by TechSplendor.
+**Mic-Portal-Captone** is a the first capstone project at Microverse. Here I have built a website for a technology symposium by TechSplendor.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -134,9 +134,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create registration system for those to attend]**
-- [ ] **Create other pages (e.g. News ...)**
-- [ ] **Add more partners**
+- **Create registration system for those to attend**
+- **Create other pages (e.g. News ...)**
+- **Add more partners**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
