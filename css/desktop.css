@@ -179,6 +179,12 @@
     transition: all 0.5s;
   }
 
+  .experts article {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2.4rem;
+  }
+
   .programs article:hover {
     border: 2px solid #fff;
   }
@@ -249,12 +255,6 @@
     background: #a04038;
     height: 3px;
     margin-bottom: 3.2rem;
-  }
-
-  .experts article {
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 2.4rem;
   }
 
   .experts article img {
