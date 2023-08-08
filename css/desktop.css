@@ -45,6 +45,10 @@
   }
 
   .hero {
+    width: 51%;
+    margin-left: 21%;
+    padding-top: 3.2rem;
+    padding-bottom: 12rem;
     background: none;
   }
 
@@ -107,13 +111,6 @@
 
   h1 {
     font-size: 4.8rem;
-  }
-
-  .hero {
-    width: 51%;
-    margin-left: 21%;
-    padding-top: 3.2rem;
-    padding-bottom: 12rem;
   }
 
   .hero q {
