@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://dd-obua.github.io/Mic-Portal-Captone/)
+- [Live Demo Link](https://dd-obua.github.io/tech-splendor/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
